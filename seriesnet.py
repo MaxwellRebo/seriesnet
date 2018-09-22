@@ -105,7 +105,7 @@ def DC_CNN_Model(length):
 
 def evaluate_timeseries(timeseries, predict_size):
     # timeseries input is 1-D numpy array
-    # forecast_size is the forecast horizon
+    # predict_size is the forecast horizon
     
     timeseries = timeseries[~pd.isna(timeseries)]
 
